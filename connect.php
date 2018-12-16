@@ -18,7 +18,7 @@ $database =  'heroku_8741199de2119fe';
 //connect to mysql
 //$connection = mysql_connect($servername, $name, $password) or die(mysqli_error());
 
-$connection = mysqli_connect($servername, $name, $password, "lex_scripta")or die(mysqli_error());
+$connection = mysqli_connect($servername, $name, $password, $database)or die(mysqli_error());
 
 
 //select the required database
