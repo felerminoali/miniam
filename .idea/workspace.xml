@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
-    </list>
+    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -224,18 +221,17 @@
       <option name="presentableId" value="Default" />
       <updated>1544952184308</updated>
       <workItem from="1544952186835" duration="4829000" />
-      <workItem from="1544961281187" duration="13184000" />
+      <workItem from="1544961281187" duration="13628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18013000" />
+    <option name="totallyTimeSpent" value="18457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
         </state>
       </provider>
     </entry>
