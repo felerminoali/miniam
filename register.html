@@ -1,0 +1,23 @@
+<html>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+<body background="law.jpg">
+	<div ng-app="register" ng-controller="registerControl">
+		<form action="register.php" method="POST">
+			<input type="text" placeholder="fullname" ng-model="fullname" name="fullname"><br><br>
+			<input type="text" placeholder="username" ng-model="username" name="username"><br><br>
+			<input type="text" placeholder="password" ng-model="password" name="password"><br><br>
+			<input type="text" placeholder="Repeat password" ng-model="pass2" name="repeat_password"><br><br>
+			<button ng-click="register()" name="registration">submit</button>
+		</form>
+	</div>
+</body>
+</html>
+
+<!--<script>
+	angular.module('register', []).controller('registerControl', function($scope, $window) {
+		$scope.register = function () {
+			$window.location.href = 'file:///Users/joankahindi/Desktop/miriam_project/home_page.html';
+		}
+
+	})
+</script>  -->
