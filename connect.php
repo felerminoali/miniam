@@ -1,9 +1,18 @@
 <?php
 session_start();
-$servername = "localhost";
-$name = "root";
-$password = "";
-$database = 'lex_scripta';
+
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+//$this->_host = $url["host"];
+//$this->_user = $url["user"];
+//$this->_password = $url["pass"];
+//$this->_name = substr($url["path"], 1);
+
+
+$servername = $url["host"];
+$name = $url["user"];
+$password = $url["pass"];
+$database =  substr($url["path"], 1);
 
 
 //connect to mysql
