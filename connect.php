@@ -12,8 +12,8 @@ $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = $url["host"];
 $name = $url["user"];
 $password = $url["pass"];
-$database =  substr($url["path"], 1);
-
+//$database =  substr($url["path"], 1);
+$database =  'heroku_8741199de2119fe';
 
 //connect to mysql
 //$connection = mysql_connect($servername, $name, $password) or die(mysqli_error());
