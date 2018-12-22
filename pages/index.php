@@ -2,12 +2,15 @@
 
 $objCase = new Cases();
 $cases = $objCase->getAllCases();
-if(empty($cases)){
-    echo '<h1>Empty</h1>';
-}
+
 $objLaw = new Laws();
 
 require_once('_header.php');
+
+if(empty($cases)){
+    echo '<h1>Empty</h1>';
+}
+
 ?>
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
