@@ -60,16 +60,14 @@ require_once('_header.php');
 
                 $laws = $objLaw->getAllLaws();
 
-
                 ?>
                 <h1>Laws of Tanzania <?php echo '2012'; ?>-<?php echo date("Y"); ?></h1>
                 <?php
-                foreach (laws as $rows) {
+                foreach ($laws as $rows) {
                     ?>
 
                     <p><a href="../acts.php?year=<?php echo $rows['year']; ?>">Laws of
                             Tanzania <?php echo $rows['year']; ?></a></p>
-
                     <?php
                 }
 
