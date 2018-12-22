@@ -1,8 +1,8 @@
 <?php
 
 $objCase = new Cases();
-
-if(empty($objCase)){
+$cases = $objCase->getAllCases();
+if(empty($cases)){
     echo '<h1>Empty</h1>';
 }
 $objLaw = new Laws();
@@ -44,7 +44,7 @@ require_once('_header.php');
                     </tr>
                     <?php
 
-                    $cases = $objCase->getAllCases();
+
 
                     foreach ($rows as $cases) {
                         echo '
