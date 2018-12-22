@@ -1,6 +1,10 @@
 <?php
 
 $objCase = new Cases();
+
+if(empty($objCase)){
+    echo '<h1>Empty</h1>';
+}
 $objLaw = new Laws();
 
 require_once('_header.php');
