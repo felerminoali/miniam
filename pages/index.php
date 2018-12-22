@@ -26,11 +26,13 @@ require_once('_header.php');
                         </div>
                         <div style="display: table-cell;">
 
-                            <button type="button" class="btn btn-primary" >Login</button>
-                            <button type="button" class="btn btn-success">Register</button>
+                            <a href="/?page=login" class="btn btn-primary">Login</a>
+                            <a href="/?page=register" class="btn btn-success">Register</a>
                             </br>
                             </br>
                             <h1>Vision</h1>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
 
