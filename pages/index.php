@@ -18,7 +18,15 @@ require_once('_header.php');
 
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-                <div style="overflow: auto; padding: 10px;">
+
+                <div style="width: 100%; display: table;">
+                    <div style="display: table-row">
+                        <div style="width: 600px; display: table-cell;"> Left </div>
+                        <div style="display: table-cell;"> Right </div>
+                    </div>
+                </div>
+
+                <div style="overflow: hidden; padding: 10px;">
                     <div style="float: left;">
                         <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                     </div>
@@ -61,7 +69,7 @@ require_once('_header.php');
                 $laws = $objLaw->getAllLaws();
 
                 ?>
-                <h1>Laws of Tanzania <?php echo '2012'; ?>-<?php echo date("Y"); ?></h1>
+                <h1>Laws of Tanzania <?php echo '2002'; ?>-<?php echo date("Y"); ?></h1>
                 <?php
                 foreach ($laws as $rows) {
                     ?>
