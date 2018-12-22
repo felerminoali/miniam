@@ -7,10 +7,6 @@ $objLaw = new Laws();
 
 require_once('_header.php');
 
-if(!empty($cases)){
-    echo '<h1>Not Empty</h1>';
-}
-
 ?>
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
@@ -46,9 +42,7 @@ if(!empty($cases)){
                         <th>Case Summary</th>
                     </tr>
                     <?php
-
-
-
+                    count($cases);
                     foreach ($rows as $cases) {
                         echo '
 							<tr>
