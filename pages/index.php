@@ -42,7 +42,7 @@ require_once('_header.php');
                         <th>Case Summary</th>
                     </tr>
                     <?php
-                    count($cases);
+                    echo '<h1>'.count($cases).'</h1>';
                     foreach ($rows as $cases) {
                         echo '
 							<tr>
