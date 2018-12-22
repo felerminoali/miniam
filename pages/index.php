@@ -24,7 +24,7 @@ require_once('_header.php');
                         <div style="display: table-cell;">
                             <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                         </div>
-                        <div style="display: table-cell;">
+                        <div style="width=100px; display: table-cell;">
 
                             <button type="button" class="btn btn-primary" >Login</button>
                             <button type="button" class="btn btn-success">Register</button>
