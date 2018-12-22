@@ -31,11 +31,11 @@ require_once('_header.php');
                             </br>
                             </br>
                             <h1>Vision</h1>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ac leo et suscipit. Nam in erat mattis eros ultricies tempus. Cras semper, lorem quis tincidunt dapibus, tellus lectus luctus lorem, eget posuere ligula massa eu felis. Integer quis efficitur justo. Maecenas varius dolor ex, a vehicula eros feugiat at. Nulla id risus sed felis lacinia hendrerit sed quis sapien. Praesent ullamcorper nibh sit amet risus aliquam, sit amet placerat nunc interdum. Duis sagittis egestas massa. Pellentesque et velit vel orci laoreet finibus at vel dui. Phasellus a semper ligula, vel tristique elit. </p>
                             </br>
 
                             <h1>Mission</h1>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ac leo et suscipit. Nam in erat mattis eros ultricies tempus. Cras semper, lorem quis tincidunt dapibus, tellus lectus luctus lorem, eget posuere ligula massa eu felis. Integer quis efficitur justo. Maecenas varius dolor ex, a vehicula eros feugiat at. Nulla id risus sed felis lacinia hendrerit sed quis sapien. Praesent ullamcorper nibh sit amet risus aliquam, sit amet placerat nunc interdum. Duis sagittis egestas massa. Pellentesque et velit vel orci laoreet finibus at vel dui. Phasellus a semper ligula, vel tristique elit. </p>
                             </br>
                         </div>
                     </div>
