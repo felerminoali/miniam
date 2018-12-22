@@ -43,7 +43,7 @@ require_once('_header.php');
                     </tr>
                     <?php
                     echo '<h1>'.count($cases).'</h1>';
-                    foreach ($rows as $cases) {
+                    foreach ($cases as $rows) {
                         echo '
 							<tr>
 								<td><a href=' . $rows["url"] . '>' . $rows["name"] . '</a></td>
@@ -64,7 +64,7 @@ require_once('_header.php');
                 ?>
                 <h1>Laws of Tanzania <?php echo '2012'; ?>-<?php echo date("Y"); ?></h1>
                 <?php
-                foreach ($rows as $laws) {
+                foreach (laws as $rows) {
                     ?>
 
                     <p><a href="../acts.php?year=<?php echo $rows['year']; ?>">Laws of
