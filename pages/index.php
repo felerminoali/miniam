@@ -26,7 +26,10 @@ require_once('_header.php');
                         </div>
                         <div style="display: table-cell;">
                             <button type="button" class="btn btn-primary">Login</button>
+                            </br>
                             <button type="button" class="btn btn-success">Register</button>
+                            </br>
+                            </br>
                             <h1>Vision</h1>
                             <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
