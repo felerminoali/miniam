@@ -21,23 +21,18 @@ require_once('_header.php');
 
                 <div style="width: 100%; display: table;">
                     <div style="display: table-row">
-                        <div style="width: 600px; display: table-cell;"> Left </div>
-                        <div style="display: table-cell;"> Right </div>
-                    </div>
-                </div>
+                        <div style="display: table-cell;">
+                            <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
+                        </div>
+                        <div style="display: table-cell;">
+                            <h1>Vision</h1>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            </br>
 
-                <div style="overflow: hidden; padding: 10px;">
-                    <div style="float: left;">
-                        <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
-                    </div>
-                    <div style="float: left;">
-                        <h1>Vision</h1>
-                        <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
-                        </br>
-
-                        <h1>Mission</h1>
-                        <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
-                        </br>
+                            <h1>Mission</h1>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            </br>
+                        </div>
                     </div>
                 </div>
 
