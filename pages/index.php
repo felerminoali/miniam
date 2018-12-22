@@ -7,8 +7,8 @@ $objLaw = new Laws();
 
 require_once('_header.php');
 
-if(empty($cases)){
-    echo '<h1>Empty</h1>';
+if(!empty($cases)){
+    echo '<h1>Not Empty</h1>';
 }
 
 ?>
