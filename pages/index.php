@@ -24,18 +24,18 @@ require_once('_header.php');
                         <div style="display: table-cell;">
                             <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                         </div>
-                        <div style="width=100px; display: table-cell;">
+                        <div style="display: table-cell;">
 
                             <button type="button" class="btn btn-primary" >Login</button>
                             <button type="button" class="btn btn-success">Register</button>
                             </br>
                             </br>
                             <h1>Vision</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ac leo et suscipit. Nam in erat mattis eros ultricies tempus. Cras semper, lorem quis tincidunt dapibus, tellus lectus luctus lorem, eget posuere ligula massa eu felis. Integer quis efficitur justo. Maecenas varius dolor ex, a vehicula eros feugiat at. Nulla id risus sed felis lacinia hendrerit sed quis sapien. Praesent ullamcorper nibh sit amet risus aliquam, sit amet placerat nunc interdum. Duis sagittis egestas massa. Pellentesque et velit vel orci laoreet finibus at vel dui. Phasellus a semper ligula, vel tristique elit. </p>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
 
                             <h1>Mission</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus ac leo et suscipit. Nam in erat mattis eros ultricies tempus. Cras semper, lorem quis tincidunt dapibus, tellus lectus luctus lorem, eget posuere ligula massa eu felis. Integer quis efficitur justo. Maecenas varius dolor ex, a vehicula eros feugiat at. Nulla id risus sed felis lacinia hendrerit sed quis sapien. Praesent ullamcorper nibh sit amet risus aliquam, sit amet placerat nunc interdum. Duis sagittis egestas massa. Pellentesque et velit vel orci laoreet finibus at vel dui. Phasellus a semper ligula, vel tristique elit. </p>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
                         </div>
                     </div>
