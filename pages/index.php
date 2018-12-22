@@ -25,6 +25,8 @@ require_once('_header.php');
                             <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                         </div>
                         <div style="display: table-cell;">
+                            <button type="button" class="btn btn-primary">Login</button>
+                            <button type="button" class="btn btn-success">Register</button>
                             <h1>Vision</h1>
                             <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
@@ -45,7 +47,7 @@ require_once('_header.php');
                         <th>Case Summary</th>
                     </tr>
                     <?php
-                    echo '<h1>'.count($cases).'</h1>';
+
                     foreach ($cases as $rows) {
                         echo '
 							<tr>
