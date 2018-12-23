@@ -48,6 +48,7 @@ require_once('_header.php');
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
+                                <img src="../homepage.jpg" alt="home-pic" width="500px" height="200px">
                                 <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
                             </div>
                         </div>
