@@ -5,7 +5,7 @@
  * Date: 11/21/2016
  * Time: 7:20 PM
  */
-require_once('_header-no-search.php'); ?>
+require_once('_header'); ?>
 
 
 <br/>
