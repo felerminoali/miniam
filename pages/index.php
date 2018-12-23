@@ -19,12 +19,12 @@ require_once('_header.php');
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
 
-                <div style="width: 100%; display: table;">
-                    <div style="display: table-row">
-                        <div style="display: table-cell;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
                             <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                         </div>
-                        <div style="display: table-cell;">
+                        <div class="col-md-6">
 
                             <a href="/?page=login" class="btn btn-primary">Login</a>
                             <a href="/?page=register" class="btn btn-success">Register</a>

@@ -41,7 +41,7 @@ require_once('_header.php');
     <div id="login-overlay" class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Login></h4>
+                <h4 class="modal-title" id="myModalLabel">Login</h4>
             </div>
             <div class="modal-body">
                 <div class="row">
