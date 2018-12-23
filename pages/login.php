@@ -12,7 +12,7 @@
 
 $objForm = new Form();
 $objValid = new Validation($objForm);
-//$objUser = new User();
+$objUser = new User();
 
 // login form
 //if ($objForm->isPost('login_email')) {
