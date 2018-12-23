@@ -6,9 +6,9 @@
  * Time: 7:20 PM
  */
 
-//if (Login::isLogged(Login::$_login_front)) {
-//    Helper::redirect(Login::$_dashboard_front);
-//}
+if (Login::isLogged(Login::$_login_front)) {
+    Helper::redirect(Login::$_dashboard_front);
+}
 
 $objForm = new Form();
 $objValid = new Validation($objForm);
