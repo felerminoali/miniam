@@ -20,7 +20,7 @@ require_once('_header.php');
             <div id="home" class="tab-pane fade in active">
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding: 10px;">
                         <div class="col-md-8">
                             <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
                         </div>
