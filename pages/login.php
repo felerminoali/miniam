@@ -25,7 +25,7 @@ if ($objForm->isPost('login_email')) {
 
 
 require_once('_header.php');
- ?>
+?>
 
 <br/>
 <br/>
@@ -70,24 +70,11 @@ require_once('_header.php');
                                     <span class="help-block"></span>
                                 </div>
                                 <button type="submit"
-                                        class="btn btn-success btn-block">Login</button>
+                                        class="btn btn-success btn-block">Login
+                                </button>
                             </form>
                         </div>
                     </div>
-
-                    <div class="hidden-xs hidden-sm">
-                    <div class="col-md-6">
-                        <p class="lead">Register</p>
-                        <ul class="list-unstyled" style="line-height: 2">
-                            <li><span class="fa fa-check text-success"></span> Easy</li>
-                            <li><span class="fa fa-check text-success"></span> Fast</li>
-                            <li><span class="fa fa-check text-success"></span> Free</li>
-                        </ul>
-                        <p><a href="/?page=register"
-                              class="btn btn-info btn-block">Register Now</a></p>
-                    </div>
-                        </div>
-
                 </div>
             </div>
         </div>
