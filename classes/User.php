@@ -3,7 +3,7 @@
 class User extends Application
 {
 
-    private $_table = "user";
+    private $_table = "users";
     public $_id;
 
     public function isUser($email, $password)
