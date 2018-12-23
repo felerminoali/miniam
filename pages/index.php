@@ -19,41 +19,31 @@ require_once('_header.php');
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
 
-<!--                <div class="row">-->
-<!--                    <div class="col-md-12">-->
-<!--                        <div class="col-md-6">-->
-<!--                            <img src="../homepage.jpg" alt="home-pic" width="500px" height="200px">-->
-<!--                        </div>-->
-<!--                        <div class="col-md-6">-->
-<!---->
-<!--                            <a href="/?page=login" class="btn btn-primary">Login</a>-->
-<!--                            <a href="/?page=register" class="btn btn-success">Register</a>-->
-<!--                            </br>-->
-<!--                            </br>-->
-<!--                            <h1>Vision</h1>-->
-<!--                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>-->
-<!--                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>-->
-<!--                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>-->
-<!--                            </br>-->
-<!---->
-<!--                            <h1>Mission</h1>-->
-<!--                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>-->
-<!--                            </br>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-                <!-- Header with Background Image -->
-<!--                <header class="business-header">-->
-<!--                    <div class="container">-->
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <img src="../homepage.jpg" alt="home-pic" height="400px">
-                                <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
-                            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <img src="../homepage.jpg" alt="home-pic" width="500px" height="200px">
                         </div>
-<!--                    </div>-->
-<!--                </header>-->
+                        <div class="col-md-6">
+
+                            <a href="/?page=login" class="btn btn-primary">Login</a>
+                            <a href="/?page=register" class="btn btn-success">Register</a>
+                            </br>
+                            </br>
+                            <h1>Vision</h1>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            </br>
+
+                            <h1>Mission</h1>
+                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            </br>
+                        </div>
+                    </div>
+                </div>
+
+
 
 
 
