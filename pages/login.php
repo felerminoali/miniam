@@ -15,13 +15,13 @@ $objValid = new Validation($objForm);
 $objUser = new User();
 
 // login form
-//if ($objForm->isPost('login_email')) {
-//    if ($objUser->isUser($objForm->getPost('login_email'), $objForm->getPost('login_password'))) {
-//        Login::loginFront($objUser->_id, Url::getReferrerUrl());
-//    } else {
-//        $objValid->add2Errors('login');
-//    }
-//}
+if ($objForm->isPost('login_email')) {
+    if ($objUser->isUser($objForm->getPost('login_email'), $objForm->getPost('login_password'))) {
+        Login::loginFront($objUser->_id, Url::getReferrerUrl());
+    } else {
+        $objValid->add2Errors('login');
+    }
+}
 
 
 require_once('_header.php');
