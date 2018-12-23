@@ -46,7 +46,7 @@ require_once('_header.php');
             <div class="modal-body">
                 <div class="row">
 
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-md-12">
                         <div class="well">
                             <form id="loginForm" method="POST">
                                 <div class="form-group">
