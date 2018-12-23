@@ -22,7 +22,7 @@ require_once('_header.php');
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-6">
-                            <img src="../homepage.jpg" alt="home-pic" width="720px" height="580px">
+                            <img src="../homepage.jpg" alt="home-pic" width="500px" height="200px">
                         </div>
                         <div class="col-md-6">
 
