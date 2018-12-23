@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="127" column="22" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="127" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -224,15 +224,16 @@
       <workItem from="1544952186835" duration="4829000" />
       <workItem from="1544961281187" duration="14284000" />
       <workItem from="1545457358262" duration="8821000" />
-      <workItem from="1545548776858" duration="5341000" />
+      <workItem from="1545548776858" duration="5582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33275000" />
+    <option name="totallyTimeSpent" value="33516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25265554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,7 +248,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.7266667" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.7266667" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -509,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="127" column="22" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="127" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>

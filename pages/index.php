@@ -44,16 +44,16 @@ require_once('_header.php');
 <!--                </div>-->
 
                 <!-- Header with Background Image -->
-                <header class="business-header">
-                    <div class="container">
+<!--                <header class="business-header">-->
+<!--                    <div class="container">-->
                         <div class="row">
                             <div class="col-lg-12">
                                 <img src="../homepage.jpg" alt="home-pic" height="400px">
                                 <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
                             </div>
                         </div>
-                    </div>
-                </header>
+<!--                    </div>-->
+<!--                </header>-->
 
 
 
