@@ -8,7 +8,31 @@ class Validation
     // for storing all errors ids
     private $_errors = array();
     // Validate messages
-    public $_message = array();
+    public $_message = array(
+        "first_name" => "Please provide your first name",
+        "last_name" => "Please provide your last name",
+        "address_1" => "Please provide the first line of your address",
+        "town" => "Please provide your town name",
+        "county" => "Please provide your county name",
+        "post_code" => "Please provide your post code",
+        "country" => "Please select your country ",
+        "email" => "Please provide your valid email address",
+        "email_duplicate" => "This email address is already taken",
+        "login" => "User and / or password were incorrect",
+        "password" => "Please choose your password",
+        "confirm_password" => "Please confirm your password",
+        "password_mismatch" => "Password did not matched",
+
+        'category' => "Please select the category",
+        'name' => "Please provide the name",
+        'description' => "Please provide a description",
+        'price' => "Please provide a price",
+        'name_duplicate' => "This name is already taken",
+        'email_duplicate' => "This email is already taken",
+        'address' => "Please provide the business address",
+        'telephone' => "Please provide the telephone no.",
+        'vat_rate' => "Please provide the VAT rate"
+    );
     // list of excepted fields;
     public $_expected = array();
     // list of required fields
@@ -27,33 +51,6 @@ class Validation
     public function __construct($objForm)
     {
         $this->objForm = $objForm;
-
-        $this->_message = array(
-            "first_name" => __('error_first_name','default'),
-            "last_name" => __('error_last_name','default'),
-            "address_1" => __('error_address_1','default'),
-            "town" => __('error_town','default'),
-            "county" => __('error_county','default'),
-            "post_code" => __('error_post_code','default'),
-            "country" => __('error_country','default'),
-            "email" => __('error_email','default'),
-            "email_duplicate" => __('error_email_duplicate','default'),
-            "login" => __('error_login','default'),
-            "password" => __('error_password','default'),
-            "confirm_password" => __('error_confirm_password','default'),
-            "password_mismatch" => __('error_password_mismatch','default'),
-
-            'category' => "Please select the category",
-            'name' => "Please provide the name",
-            'description' => "Please provide a description",
-            'price' => "Please provide a price",
-            'name_duplicate' => "This name is already taken",
-            'email_duplicate' => "This email is already taken",
-            'address' => "Please provide the business address",
-            'telephone' => "Please provide the telephone no.",
-            'vat_rate' => "Please provide the VAT rate"
-        );
-        
     }
 
     public function process()

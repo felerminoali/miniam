@@ -11,7 +11,7 @@
 //}
 
 $objForm = new Form();
-//$objValid = new Validation($objForm);
+$objValid = new Validation($objForm);
 //$objUser = new User();
 
 // login form
