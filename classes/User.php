@@ -28,7 +28,7 @@ class User extends Application
         if (!empty($params) && !empty($password)) {
 
             // make user activated
-            $params['active'] = 1;
+//            $params['active'] = 1;
 
             $this->db->prepareInsert($params);
 
