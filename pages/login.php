@@ -34,7 +34,8 @@ require_once('_header.php');
 
     <div>
         <strong>
-
+            <a href="/" class="btn btn-success"><i class="fa fa-angle-double-left"
+                                                   aria-hidden="true"></i>Cancel</a>
         </strong>
     </div>
 
