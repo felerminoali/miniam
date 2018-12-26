@@ -219,14 +219,13 @@ require_once('_header.php'); ?>
                                         </div>
                                     </div>
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="submit" class="col-xs-5 col-form-label"></label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            <button type="submit" name="submit"-->
-<!--                                                    class="btn btn-success btn-block">Register</button>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-
+                                    <div class="form-group row">
+                                        <label for="submit" class="col-xs-5 col-form-label"></label>
+                                        <div class="col-xs-7">
+                                            <button type="submit" name="submit"
+                                                    class="btn btn-success btn-block">Register</button>
+                                        </div>
+                                    </div>
 
                                 </form>
                             </div>
