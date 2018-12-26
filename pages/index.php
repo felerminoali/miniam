@@ -30,14 +30,10 @@ require_once('_header.php');
                             <a href="/?page=register" class="btn btn-success">Register</a>
                             </br>
                             </br>
-                            <h1>Vision</h1>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
+                            <h1>Our Mission</h1>
+                            <p>Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind. Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind.  </p>
                             </br>
 
-                            <h1>Mission</h1>
-                            <p>dcnskjhckskjchbskjhkj kjahbkjahkdhka </p>
                             </br>
                         </div>
                     </div>

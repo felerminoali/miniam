@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.php" afterDir="false" />
-    </list>
+    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1184" />
+          <entry key="php" value="1186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1184" />
+          <entry key="PHP" value="1186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="211" column="7" lean-forward="true" selection-start-line="200" selection-start-column="40" selection-end-line="211" selection-end-column="7" />
+            <state relative-caret-position="37">
+              <caret line="227" selection-start-line="227" selection-end-line="227" />
             </state>
           </provider>
         </entry>
@@ -255,15 +253,16 @@
       <workItem from="1544961281187" duration="14284000" />
       <workItem from="1545457358262" duration="8821000" />
       <workItem from="1545548776858" duration="6662000" />
-      <workItem from="1545842511437" duration="1231000" />
+      <workItem from="1545842511437" duration="1642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35827000" />
+    <option name="totallyTimeSpent" value="36238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25265554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +277,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.7266667" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.7266667" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="211" column="7" lean-forward="true" selection-start-line="200" selection-start-column="40" selection-end-line="211" selection-end-column="7" />
+        <state relative-caret-position="37">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
         </state>
       </provider>
     </entry>
