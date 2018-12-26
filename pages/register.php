@@ -197,29 +197,28 @@ require_once('_header.php'); ?>
                                         </div>
                                     </div>
 
+                                    <div class="form-group row">
+                                        <label for="password"
+                                               class="col-xs-5 col-form-label">Password</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('password'); ?>
+                                            <?php echo $objValid->validate('password_mismatch'); ?>
+                                            <input type="password" class="form-control" name="password" id="password"
+                                                   value="<?php echo $objForm->stickyText('password'); ?>">
+                                        </div>
+                                    </div>
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="password"-->
-<!--                                               class="col-xs-5 col-form-label">Password</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('password'); ?>
-<!--                                            --><?php //echo $objValid->validate('password_mismatch'); ?>
-<!--                                            <input type="password" class="form-control" name="password" id="password"-->
-<!--                                                   value="--><?php //echo $objForm->stickyText('password'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
-<!---->
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="confirm_password"-->
-<!--                                               class="col-xs-5 col-form-label">Confirm Password</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('confirm_password'); ?>
-<!--                                            <input type="password" class="form-control" name="confirm_password"-->
-<!--                                                   id="confirm_password" value="--><?php //echo $objForm->stickyText('confirm_password'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
+
+                                    <div class="form-group row">
+                                        <label for="confirm_password"
+                                               class="col-xs-5 col-form-label">Confirm Password</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('confirm_password'); ?>
+                                            <input type="password" class="form-control" name="confirm_password"
+                                                   id="confirm_password" value="<?php echo $objForm->stickyText('confirm_password'); ?>">
+                                        </div>
+                                    </div>
+
 <!--                                    <div class="form-group row">-->
 <!--                                        <label for="submit" class="col-xs-5 col-form-label"></label>-->
 <!--                                        <div class="col-xs-7">-->
