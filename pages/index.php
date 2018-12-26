@@ -8,6 +8,18 @@ $objLaw = new Laws();
 require_once('_header.php');
 
 ?>
+
+    <div class="navbar navbar-fixed-top" style="background-color: white;">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="container-fluid" style="margin-top: 0.60em;">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
             <li class="active"><a data-toggle="tab" href="#home">Home page</a></li>
@@ -32,7 +44,13 @@ require_once('_header.php');
                             </br>
                             <h1>Our Mission</h1>
                             <br/>
-                            <p style="text-align:justify">Founded in 2018, <b>Lex Scripta</b> is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind. Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind.  </p>
+                            <p style="text-align:justify">Founded in 2018, <b>Lex Scripta</b> is a legal database
+                                created to enhance the legal sector in Tanzania. We make it possible by creating a
+                                platform where law students and lawyers can access legal materials and tools at an
+                                affordable price, to ensure that no one is left behind. Founded in 2018, Lex Scripta is
+                                a legal database created to enhance the legal sector in Tanzania. We make it possible by
+                                creating a platform where law students and lawyers can access legal materials and tools
+                                at an affordable price, to ensure that no one is left behind. </p>
                             </br>
 
                             </br>
@@ -40,8 +58,6 @@ require_once('_header.php');
                     </div>
                 </div>
             </div>
-
-
 
 
             <div id="cases" class="tab-pane fade">
