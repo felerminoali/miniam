@@ -100,32 +100,32 @@ require_once('_header.php'); ?>
             </strong>
         </div>
 
-<!--        <div class="col-md-8">-->
-<!---->
-<!--            <div id="login-overlay" class="modal-dialog">-->
-<!--                <div class="modal-content">-->
-<!--                    <div class="modal-header">-->
-<!--                        <h4 class="modal-title" id="myModalLabel">Register</h4>-->
-<!--                    </div>-->
-<!--                    <div class="modal-body">-->
-<!---->
-<!---->
-<!--                        <div class="row">-->
-<!---->
-<!--                            <div class="col-md-12">-->
-<!---->
-<!--                                <form id="registerForm" method="POST">-->
-<!---->
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="first_name"-->
-<!--                                               class="col-xs-5 col-form-label">First Name</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('first_name'); ?>
-<!--                                            <input type="text" class="form-control" name="first_name" id="first_name"-->
-<!--                                                   value="--><?php //echo $objForm->stickyText('first_name'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
+        <div class="col-md-8">
+
+            <div id="login-overlay" class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Register</h4>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <form id="registerForm" method="POST">
+
+                                    <div class="form-group row">
+                                        <label for="first_name"
+                                               class="col-xs-5 col-form-label">First Name</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('first_name'); ?>
+                                            <input type="text" class="form-control" name="first_name" id="first_name"
+                                                   value="<?php echo $objForm->stickyText('first_name'); ?>">
+                                        </div>
+                                    </div>
+
 <!--                                    <div class="form-group row">-->
 <!--                                        <label for="last_name"-->
 <!--                                               class="col-xs-5 col-form-label">Last Name</label>-->
@@ -228,16 +228,16 @@ require_once('_header.php'); ?>
 <!--                                                    class="btn btn-success btn-block">Register</button>-->
 <!--                                        </div>-->
 <!--                                    </div>-->
-<!---->
-<!---->
-<!--                                </form>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--        </div>-->
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
     </div>
