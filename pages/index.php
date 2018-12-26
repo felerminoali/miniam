@@ -9,18 +9,6 @@ require_once('_header.php');
 
 ?>
 
-    <div class="navbar navbar-fixed-top" style="background-color: white;">
-        <div class="container">
-            <div class="navbar-header">
-                <div class="container-fluid" style="margin-top: 0.60em;">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br/>
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
             <li class="active"><a data-toggle="tab" href="#home">Home page</a></li>
