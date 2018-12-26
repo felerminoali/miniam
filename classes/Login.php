@@ -2,7 +2,7 @@
 class Login {
 
 	public static $_login_page_front = "/?page=login";
-	public static $_dashboard_front = "/?page=exams";
+	public static $_dashboard_front = "/";
 	public static $_login_front = "cid";
 	
 	public static $_login_page_admin = "/admin/";
