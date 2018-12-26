@@ -89,17 +89,17 @@ require_once('_header.php'); ?>
 <br/>
 <br/>
 <br/>
-<!--<div class="container">-->
-<!---->
-<!--    <div class="row">-->
-<!---->
-<!--        <div class="col-md-2">-->
-<!--            <strong>-->
-<!--                <a href="/" class="btn btn-success"><i class="fa fa-angle-double-left"-->
-<!--                                                                               aria-hidden="true"></i>Cancel</a>-->
-<!--            </strong>-->
-<!--        </div>-->
-<!---->
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-2">
+            <strong>
+                <a href="/" class="btn btn-success"><i class="fa fa-angle-double-left"
+                                                                               aria-hidden="true"></i>Cancel</a>
+            </strong>
+        </div>
+
 <!--        <div class="col-md-8">-->
 <!---->
 <!--            <div id="login-overlay" class="modal-dialog">-->
@@ -238,10 +238,10 @@ require_once('_header.php'); ?>
 <!--            </div>-->
 <!---->
 <!--        </div>-->
-<!---->
-<!---->
-<!--    </div>-->
-<!--</div>-->
+
+
+    </div>
+</div>
 
 
 </body>
