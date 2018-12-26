@@ -31,7 +31,7 @@ require_once('_header.php');
                             </br>
                             </br>
                             <h1>Our Mission</h1>
-                            <p>Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind. Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind.  </p>
+                            <p>Founded in 2018, <b>Lex Scripta</b> is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind. Founded in 2018, Lex Scripta is a legal database created to enhance the legal sector in Tanzania. We make it possible by creating a platform where law students and lawyers can access legal materials and tools at an affordable price, to ensure that no one is left behind.  </p>
                             </br>
 
                             </br>
