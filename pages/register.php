@@ -177,14 +177,14 @@ require_once('_header.php'); ?>
                                         </div>
                                     </div>
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="country"-->
-<!--                                               class="col-xs-5 col-form-label">Country</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('country'); ?>
-<!--                                            --><?php //echo $objForm->getCountriesSelect(149); ?>
-<!--                                        </div>-->
-<!--                                    </div>-->
+                                    <div class="form-group row">
+                                        <label for="country"
+                                               class="col-xs-5 col-form-label">Country</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('country'); ?>
+                                            <?php echo $objForm->getCountriesSelect(149); ?>
+                                        </div>
+                                    </div>
 
 
 <!--                                    <div class="form-group row">-->
