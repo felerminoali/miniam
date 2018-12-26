@@ -13,7 +13,7 @@ require_once('_header.php');
             <li class="active"><a data-toggle="tab" href="#home">Home page</a></li>
             <li><a data-toggle="tab" href="#cases">Cases</a></li>
             <li><a data-toggle="tab" href="#legislation">Legislation</a></li>
-            <li><a data-toggle="tab" href="#glossary">Glossary</a></li>
+            <li><a data-toggle="tab" href="#glossary">Articles</a></li>
         </ul>
 
         <div class="tab-content">
