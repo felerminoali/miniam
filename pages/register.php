@@ -168,15 +168,15 @@ require_once('_header.php'); ?>
                                     </div>
 
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="county"-->
-<!--                                               class="col-xs-5 col-form-label">County</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('county'); ?>
-<!--                                            <input type="text" class="form-control" name="county" id="county" value="--><?php //echo $objForm->stickyText('county'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
+                                    <div class="form-group row">
+                                        <label for="county"
+                                               class="col-xs-5 col-form-label">County</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('county'); ?>
+                                            <input type="text" class="form-control" name="county" id="county" value="<?php echo $objForm->stickyText('county'); ?>">
+                                        </div>
+                                    </div>
+
 <!--                                    <div class="form-group row">-->
 <!--                                        <label for="country"-->
 <!--                                               class="col-xs-5 col-form-label">Country</label>-->
@@ -185,8 +185,8 @@ require_once('_header.php'); ?>
 <!--                                            --><?php //echo $objForm->getCountriesSelect(149); ?>
 <!--                                        </div>-->
 <!--                                    </div>-->
-<!---->
-<!---->
+
+
 <!--                                    <div class="form-group row">-->
 <!--                                        <label for="email"-->
 <!--                                               class="col-xs-5 col-form-label">Email</label>-->
