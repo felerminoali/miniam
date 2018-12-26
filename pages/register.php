@@ -80,6 +80,8 @@ if ($objForm->isPost('first_name')) {
         } else {
             Helper::redirect('/?page=registered-failed');
         }
+    }else{
+        echo '<h1>Not Valid</h1>';
     }
 
 }
