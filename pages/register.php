@@ -126,26 +126,25 @@ require_once('_header.php'); ?>
                                         </div>
                                     </div>
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="last_name"-->
-<!--                                               class="col-xs-5 col-form-label">Last Name</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('last_name'); ?>
-<!--                                            <input type="text" class="form-control" name="last_name" id="last_name"-->
-<!--                                                   value="--><?php //echo $objForm->stickyText('last_name'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
-<!---->
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="address_1"-->
-<!--                                               class="col-xs-5 col-form-label">Address 1</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('address_1'); ?>
-<!--                                            <input type="text" class="form-control" name="address_1" id="address_1"-->
-<!--                                                   value="--><?php //echo $objForm->stickyText('address_1'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
+                                    <div class="form-group row">
+                                        <label for="last_name"
+                                               class="col-xs-5 col-form-label">Last Name</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('last_name'); ?>
+                                            <input type="text" class="form-control" name="last_name" id="last_name"
+                                                   value="<?php echo $objForm->stickyText('last_name'); ?>">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="address_1"
+                                               class="col-xs-5 col-form-label">Address 1</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('address_1'); ?>
+                                            <input type="text" class="form-control" name="address_1" id="address_1"
+                                                   value="<?php echo $objForm->stickyText('address_1'); ?>">
+                                        </div>
+                                    </div>
 <!---->
 <!---->
 <!--                                    <div class="form-group row">-->
