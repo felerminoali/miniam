@@ -187,17 +187,17 @@ require_once('_header.php'); ?>
                                     </div>
 
 
-<!--                                    <div class="form-group row">-->
-<!--                                        <label for="email"-->
-<!--                                               class="col-xs-5 col-form-label">Email</label>-->
-<!--                                        <div class="col-xs-7">-->
-<!--                                            --><?php //echo $objValid->validate('email'); ?>
-<!--                                            --><?php //echo $objValid->validate('email_duplicate'); ?>
-<!--                                            <input type="text" class="form-control" name="email" id="email" value="--><?php //echo $objForm->stickyText('email'); ?><!--">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
-<!---->
+                                    <div class="form-group row">
+                                        <label for="email"
+                                               class="col-xs-5 col-form-label">Email</label>
+                                        <div class="col-xs-7">
+                                            <?php echo $objValid->validate('email'); ?>
+                                            <?php echo $objValid->validate('email_duplicate'); ?>
+                                            <input type="text" class="form-control" name="email" id="email" value="<?php echo $objForm->stickyText('email'); ?>">
+                                        </div>
+                                    </div>
+
+
 <!--                                    <div class="form-group row">-->
 <!--                                        <label for="password"-->
 <!--                                               class="col-xs-5 col-form-label">Password</label>-->
