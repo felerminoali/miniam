@@ -27,7 +27,6 @@ class User extends Application
 
         if (!empty($params) && !empty($password)) {
 
-            echo '<h1>entrei</h1>';
             // make user activated
 //            $params['active'] = 1;
 
