@@ -20,6 +20,7 @@ require_once('_header.php');
             </div>
         </div>
     </div>
+    <br/>
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
             <li class="active"><a data-toggle="tab" href="#home">Home page</a></li>
