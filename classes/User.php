@@ -26,22 +26,27 @@ class User extends Application
     {
 
         if (!empty($params) && !empty($password)) {
+
+            // make user activated
+            $params['active'] = 1;
+
             $this->db->prepareInsert($params);
 
             if ($this->db->insert($this->_table)) {
 
                 // send email
-                $objEmail = new Email();
-
-                $process_result = $objEmail->process(1, array(
-                    'email' => $params['email'],
-                    'first_name' => $params['first_name'],
-                    'last_name' => $params['last_name'],
-                    'password' => $password,
-                    'hash' => $params['hash']
-                ));
-
-                return $process_result;
+//                $objEmail = new Email();
+////
+////                $process_result = $objEmail->process(1, array(
+////                    'email' => $params['email'],
+////                    'first_name' => $params['first_name'],
+////                    'last_name' => $params['last_name'],
+////                    'password' => $password,
+////                    'hash' => $params['hash']
+////                ));
+////
+////                return $process_result;
+                return true;
             }
             return false;
         }

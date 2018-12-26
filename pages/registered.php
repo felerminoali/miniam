@@ -15,18 +15,14 @@ require_once('_header'); ?>
 <div id="login-overlay" class="modal-dialog">
     <div class="modal-content">
         <div class="modal-header">
-            <h1 class="modal-title" id="myModalLabel"><?php echo __('registered_success', 'default'); ?></h1>
+            <h1 class="modal-title" id="myModalLabel">Successfully registed</h1>
         </div>
         <div class="modal-body">
             <div class="row">
 
                 <div class="col-xs-12">
-
-                    <p><?php echo __('thanks_for_register', 'default'); ?><br/>
-                        <?php echo __('registration_instruction', 'default'); ?>
-                    </p>
-
-                    <p><a href="/?page=exams" class="btn btn-info btn-block"><?php echo __('back','default');?></a></p>
+                    <p>Thank you for register on our Website!</p>
+                    <p><a href="/" class="btn btn-info btn-block">Back</a></p>
                 </div>
             </div>
         </div>

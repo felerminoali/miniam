@@ -83,7 +83,7 @@ require_once('_header.php');
 
                 ?>
             </div>
-            <div id="glossary" class="tab-pane fade">
+            <div id="Articles" class="tab-pane fade">
                 <p>Glossary</p>
             </div>
         </div>
