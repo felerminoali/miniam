@@ -28,6 +28,8 @@ require_once('_header.php');
                         <div class="col-md-4">
 
                             <a href="/?page=login" class="btn btn-primary">Login</a>
+
+
                             <a href="/?page=register" class="btn btn-success">Register</a>
                             </br>
                             </br>
