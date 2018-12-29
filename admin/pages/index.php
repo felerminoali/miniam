@@ -76,7 +76,7 @@ require_once('template/_footer.php')
     {
         $.ajax({
             type : 'POST',
-            url  : 'test.php',
+            url  : '/mod/test.php',
             dataType: 'json',
             cache: false,
             success :  function(result)
