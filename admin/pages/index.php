@@ -55,7 +55,7 @@ require_once('template/_header.php')
         <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
             <h1>Dashboard</h1>
 
-            <table id="test_table" class="display" style="width:100%">
+            <table id="test_table" class="display" >
                 <thead>
                 <tr>
                     <th>ID</th>
