@@ -27,7 +27,7 @@ require_once('template/_header.php')
                     <div class="modal-header">
                         <h4 class="modal-title" id="myModalLabel">Add Case</h4>
                     </div>
-                    <div class="modal-body">
+
 
 
                         <div class="row">
@@ -148,7 +148,7 @@ require_once('template/_header.php')
                                     </div>
 
                                 </form>
-                            </div>
+
                         </div>
                     </div>
                 </div>

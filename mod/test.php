@@ -2,14 +2,15 @@
 
 require_once ('../inc/autoload.php');
 
-$objUser = new User();
+$objCases = new Cases();
 
-$users = $objUser->getUsers();
+$cases= $objCases->getAllCases();
 $dataArray = array();
 foreach ($users as $row){
     $dataArray[] = $row["id"];
-    $dataArray[] = $row["first_name"];
-    $dataArray[] = $row["email"];
+    $dataArray[] = $row["name"];
+    $dataArray[] = $row["url"];
+    $dataArray[] = $row["summary"];
 
 }
 
