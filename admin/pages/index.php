@@ -55,6 +55,9 @@ require_once('template/_header.php')
         <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
             <h1>Dashboard</h1>
 
+            <a href="/admin/" class="btn btn-success"><i class="fa fa-angle-double-left"
+                                                   aria-hidden="true"></i>Cancel</a>
+
             <table id="test_table" class="display" style="width: 100%">
                 <thead>
                 <tr>
