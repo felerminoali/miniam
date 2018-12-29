@@ -70,6 +70,7 @@ require_once('template/_header.php')
 </div>
 
 <script src="../js/jquery.min.js"></script>
+<script src="../js/datatables.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>
     $('document').ready(function()
