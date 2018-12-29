@@ -5,6 +5,12 @@
  * Date: 12/29/2018
  * Time: 6:27 PM
  */
+if (Login::isLogged(Login::$_login_admin)) {
+    Helper::redirect(Login::$_dashboard_admin);
+}
+
+$objForm = new Form();
+$objValid = new Validation($objForm);
 
 require_once('template/_header.php')
 ?>
@@ -21,7 +27,7 @@ require_once('template/_header.php')
 
                 <div class="form-group row">
                     <label for="name"
-                           class="col-xs-5 col-form-label">First Name</label>
+                           class="col-xs-5 col-form-label">Case Name</label>
                     <div class="col-xs-7">
                         <?php echo $objValid->validate('name'); ?>
                         <input type="text" class="form-control" name="name" id="name"
