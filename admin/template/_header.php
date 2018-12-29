@@ -21,3 +21,29 @@
 
 <body>
 
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <a class="navbar-brand" href="#">Dashboard</a>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault" style="float: right;">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+
+
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Manage Cases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Manage Laws</a>
+                </li>
+            </ul>
+        </nav>

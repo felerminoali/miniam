@@ -196,7 +196,7 @@
       <path value="$PROJECT_DIR$/vendor/assets/images" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />

@@ -25,37 +25,11 @@
 require_once('template/_header.php')
 ?>
 
-<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-    <a class="navbar-brand" href="#">Dashboard</a>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault" style="float: right;">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Logout</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<div class="container-fluid">
-    <div class="row">
-        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
-
-
-            <ul class="nav nav-pills flex-column">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Manage Cases</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Manage Laws</a>
-                </li>
-            </ul>
-        </nav>
 
         <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
             <h1>Dashboard</h1>
 
-            <a href="/admin/" class="btn btn-success" style="float: right;"><i class="fa fa-angle-double-left"
+            <a href="/admin/?page=addcase" class="btn btn-success" style="float: right;"><i class="fa fa-angle-double-left"
                                                    aria-hidden="true"></i>Add Case</a>
 
             <table id="test_table" class="display" style="width: 100%">
@@ -72,42 +46,7 @@ require_once('template/_header.php')
     </div>
 </div>
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/datatables.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script>
-    $('document').ready(function()
-    {
-        $.ajax({
-            type : 'POST',
-            url  : '/mod/test.php',
-            dataType: 'json',
-            cache: false,
-            success :  function(result)
-            {
-                //pass data to datatable
-                console.log(result); // just to see I'm getting the correct data.
-                $('#test_table').DataTable({
-                    "searching": false, //this is disabled because I have a custom search.
-                    "aaData": [result], //here we get the array data from the ajax call.
-                    "aoColumns": [
-                        { "sTitle": "ID" },
-                        { "sTitle": "Name" },
-                        { "sTitle": "Email" }
-                    ] //this isn't necessary unless you want modify the header
-                      //names without changing it in your html code.
-                      //I find it useful tho' to setup the headers this way.
-                });
-            }
-        });
-    });
-</script>
 <?php
-//require_once('template/_footer.php')
-//?>
-
-
-
-</body>
-</html>
+require_once('template/_footer.php')
+?>
 
