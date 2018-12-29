@@ -20,7 +20,7 @@
 //}
 //
 
-Login::restrictFront();
+//Login::restrictFront();
 
 require_once('template/_header.php')
 ?>
