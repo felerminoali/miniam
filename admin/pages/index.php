@@ -68,9 +68,9 @@ require_once('template/_header.php')
         </main>
     </div>
 </div>
-<?php
-require_once('template/_footer.php')
-?>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <script>
     $('document').ready(function()
     {
@@ -98,3 +98,12 @@ require_once('template/_footer.php')
         });
     });
 </script>
+<?php
+//require_once('template/_footer.php')
+//?>
+
+
+
+</body>
+</html>
+
