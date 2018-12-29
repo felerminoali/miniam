@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +54,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1475" />
+          <entry key="php" value="1500" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1475" />
+          <entry key="PHP" value="1500" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -112,10 +111,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/pages/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="399">
+              <caret line="53" column="30" selection-start-line="43" selection-start-column="15" selection-end-line="56" selection-end-column="21" />
               <folding>
                 <element signature="e#7#53#0#PHP" expanded="true" />
+                <element signature="e#1054#1075#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,12 +286,12 @@
       <workItem from="1545548776858" duration="6662000" />
       <workItem from="1545842511437" duration="7748000" />
       <workItem from="1545892137606" duration="2652000" />
-      <workItem from="1546064034385" duration="240000" />
+      <workItem from="1546064034385" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45236000" />
+    <option name="totallyTimeSpent" value="46271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
@@ -595,10 +595,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="53" column="30" selection-start-line="43" selection-start-column="15" selection-end-line="56" selection-end-column="21" />
           <folding>
             <element signature="e#7#53#0#PHP" expanded="true" />
+            <element signature="e#1054#1075#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
