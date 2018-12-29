@@ -16,7 +16,8 @@ $('document').ready(function()
                 "aoColumns": [
                     { "sTitle": "ID" },
                     { "sTitle": "Name" },
-                    { "sTitle": "Email" }
+                    { "sTitle": "URL" },
+                    { "sTitle": "Summary" }
                 ] //this isn't necessary unless you want modify the header
                   //names without changing it in your html code.
                   //I find it useful tho' to setup the headers this way.
