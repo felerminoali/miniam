@@ -36,11 +36,11 @@ require_once('template/_header.php')
                 </div>
 
                 <div class="form-group row">
-                    <label for="last_name"
+                    <label for="image"
                            class="col-xs-5 col-form-label">PDF</label>
                     <div class="col-xs-7">
-                        <?php echo $objValid->validate('pdf'); ?>
-                        <input type="image" name="pdf" id="pdf" size="30">
+                        <?php echo $objValid->validate('image'); ?>
+                        <input type="image" name="image" id="image" size="30">
                     </div>
                 </div>
 
