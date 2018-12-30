@@ -23,4 +23,4 @@ fwrite($fp, 'Size: '.count($casesArray));
 fclose($fp);
 
 
-echo json_encode($dataArray);
+echo json_encode($casesArray);
