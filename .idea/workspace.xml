@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mod/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/mod/test.php" afterDir="false" />
-    </list>
+    <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="37">
+              <caret line="22" column="72" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="22" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -149,9 +147,9 @@
         <option value="$PROJECT_DIR$/admin/template/_header.php" />
         <option value="$PROJECT_DIR$/admin/template/_footer.php" />
         <option value="$PROJECT_DIR$/admin/pages/addcase.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/admin/pages/index.php" />
         <option value="$PROJECT_DIR$/mod/test.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -283,15 +281,15 @@
       <workItem from="1545842511437" duration="7748000" />
       <workItem from="1545892137606" duration="2652000" />
       <workItem from="1546064034385" duration="12684000" />
-      <workItem from="1546182219696" duration="3121000" />
+      <workItem from="1546182219696" duration="3367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60801000" />
+    <option name="totallyTimeSpent" value="61047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25644916" />
@@ -307,7 +305,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.7266667" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.7266667" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -625,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="37">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="22" selection-end-column="72" />
         </state>
       </provider>
     </entry>

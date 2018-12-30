@@ -1,27 +1,46 @@
 
 $('document').ready(function()
 {
-    $.ajax({
-        type : 'POST',
-        url  : '/mod/test.php',
-        dataType: 'json',
-        cache: false,
-        success :  function(result)
-        {
-            //pass data to datatable
-            console.log(result); // just to see I'm getting the correct data.
-            $('#test_table').DataTable({
-                "searching": false, //this is disabled because I have a custom search.
-                "aaData": [result], //here we get the array data from the ajax call.
-                "aoColumns": [
-                    { "sTitle": "ID" },
-                    { "sTitle": "Name" },
-                    { "sTitle": "URL" },
-                    { "sTitle": "Summary" }
-                ] //this isn't necessary unless you want modify the header
-                  //names without changing it in your html code.
-                  //I find it useful tho' to setup the headers this way.
-            });
-        }
-    });
+    // $.ajax({
+    //     type : 'POST',
+    //     url  : '/mod/test.php',
+    //     dataType: 'json',
+    //     cache: false,
+    //     success :  function(result)
+    //     {
+    //         //pass data to datatable
+    //         console.log(result); // just to see I'm getting the correct data.
+    //         $('#test_table').DataTable({
+    //             "searching": false, //this is disabled because I have a custom search.
+    //             "aaData": [result], //here we get the array data from the ajax call.
+    //             "aoColumns": [
+    //                 { "sTitle": "ID" },
+    //                 { "sTitle": "Name" },
+    //                 { "sTitle": "URL" },
+    //                 { "sTitle": "Summary" }
+    //             ] //this isn't necessary unless you want modify the header
+    //               //names without changing it in your html code.
+    //               //I find it useful tho' to setup the headers this way.
+    //         });
+    //     }
+    // });
+
+    fill_datatable();
+
+    function fill_datatable()
+    {
+        var dataTable = $('#test_table').DataTable({
+            "processing" : true,
+            "serverSide" : true,
+            "order" : [],
+            "searching" : false,
+            "ajax" : {
+                url:"/mod/test.php",
+                type:"POST",
+                // data:{
+                //     filter_gender:filter_gender, filter_country:filter_country
+                // }
+            }
+        });
+    }
 });
