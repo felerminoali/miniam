@@ -14,4 +14,5 @@ foreach ($cases as $row){
 
 }
 
-echo json_encode($dataArray);
+echo json_encode($cases);
+//echo json_encode($dataArray);
