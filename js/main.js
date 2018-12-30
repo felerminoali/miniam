@@ -12,15 +12,8 @@ $('document').ready(function()
             console.log(result); // just to see I'm getting the correct data.
             $('#test_table').DataTable({
                 "searching": false, //this is disabled because I have a custom search.
-                "aaData": [result], //here we get the array data from the ajax call.
-                "aoColumns": [
-                    { "sTitle": "ID" },
-                    { "sTitle": "Name" },
-                    { "sTitle": "URL" },
-                    { "sTitle": "Summary" }
-                ] //this isn't necessary unless you want modify the header
-                  //names without changing it in your html code.
-                  //I find it useful tho' to setup the headers this way.
+                "aaData": [result] //here we get the array data from the ajax call.
+
             });
         }
     });

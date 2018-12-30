@@ -6,21 +6,23 @@ $objCases = new Cases();
 
 $cases= $objCases->getAllCases();
 
-$casesArray = array();
+$data = array();
 foreach ($cases as $row){
-    $dataArray = array();
-    $dataArray[] = $row["id"];
-    $dataArray[] = $row["name"];
-    $dataArray[] = $row["url"];
-    $dataArray[]= $row["summary"];
-    $casesArray[] = $dataArray;
+    $sub_array  = array();
+    $sub_array[] = $row["id"];
+    $sub_array[] = $row["name"];
+    $sub_array[] = $row["url"];
+    $sub_array[]= $row["summary"];
+    $data[] = $sub_array;
 }
 
 //echo json_encode($cases);
 
 $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-fwrite($fp, 'Size: '.count($casesArray));
+fwrite($fp, 'Size: '.count($data));
 fclose($fp);
 
-
-echo json_encode($casesArray);
+$output = array (
+    'data' => $data
+);
+echo json_encode($output);
