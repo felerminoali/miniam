@@ -39,7 +39,7 @@ require_once('template/_header.php')
                     <label for="image"
                            class="col-xs-5 col-form-label">PDF</label>
                     <div class="col-xs-7">
-                        <?php echo $objValid->validate('image'); ?>
+<!--                        --><?php //echo $objValid->validate('image'); ?>
                         <input type="image" name="image" id="image" size="30">
                     </div>
                 </div>
