@@ -15,4 +15,10 @@ foreach ($cases as $row){
 }
 
 //echo json_encode($cases);
+
+$fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+fwrite($fp, 'Size: '.count($dataArray));
+fclose($fp);
+
+
 echo json_encode($dataArray);
