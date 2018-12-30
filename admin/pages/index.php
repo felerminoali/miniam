@@ -37,7 +37,8 @@ require_once('template/_header.php')
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Email</th>
+                    <th>URL</th>
+                    <th>Summary</th>
                 </tr>
                 </thead>
             </table>
