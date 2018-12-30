@@ -23,8 +23,8 @@ fwrite($fp, 'Size: '.count($data));
 fclose($fp);
 
 $output = array (
-    "draw"       =>  intval($_POST["draw"]),
-    "recordsTotal"   => count($data),
+//    "draw"       =>  intval($_POST["draw"]),
+//    "recordsTotal"   => count($data),
 //    "recordsFiltered"  =>  10,
     'data' => $data
 );
