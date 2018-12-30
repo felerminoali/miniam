@@ -6,7 +6,7 @@ $objCases = new Cases();
 
 $cases= $objCases->getAllCases();
 $dataArray = array();
-foreach ($users as $row){
+foreach ($cases as $row){
     $dataArray[] = $row["id"];
     $dataArray[] = $row["name"];
     $dataArray[] = $row["url"];
