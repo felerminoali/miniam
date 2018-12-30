@@ -11,7 +11,7 @@ foreach ($cases as $row){
     $sub_array  = array();
     $sub_array[] = $row["id"];
     $sub_array[] = $row["name"];
-    $sub_array[] = $row["url"];
+    $sub_array[] = '<a href="'. $row["url"].'">Link</a>';
     $sub_array[]= $row["summary"];
     $data[] = $sub_array;
 }
