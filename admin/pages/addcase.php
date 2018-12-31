@@ -31,6 +31,11 @@ if ($objForm->isPost('name')) {
             $objUpload = new Upload();
 
             if ($objUpload->upload(UPLOAD_PATH)) {
+
+                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+                fwrite($fp, $objUpload->_names[0]);
+                fclose($fp);
+
 //                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
 //                Helper::redirect('/');
 //            } else {
