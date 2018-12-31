@@ -51,51 +51,51 @@ require_once('_header.php');
             </div>
 
 
-            <?php if (Login::isLogged(Login::$_login_front)) {?>
-            <div id="cases" class="tab-pane fade">
-                <h1>Cases</h1>
-                <table>
-                    <tr>
-                        <th>Case</th>
-                        <th>Case Summary</th>
-                    </tr>
-                    <?php
+            <?php if (Login::isLogged(Login::$_login_admin)) { ?>
+                <div id="cases" class="tab-pane fade">
+                    <h1>Cases</h1>
+                    <table>
+                        <tr>
+                            <th>Case</th>
+                            <th>Case Summary</th>
+                        </tr>
+                        <?php
 
-                    foreach ($cases as $rows) {
-                        echo '
+                        foreach ($cases as $rows) {
+                            echo '
 							<tr>
 								<td><a href=' . $rows["url"] . '>' . $rows["name"] . '</a></td>
 								<td><a href=' . $rows["summary"] . '>' . $rows["name"] . ' Summary</a></td>
 							</tr>';
+                        }
+
+                        ?>
+                    </table>
+                </div>
+                <div id="legislation" class="tab-pane fade">
+
+                    <?php
+
+                    $laws = $objLaw->getAllLaws();
+
+                    ?>
+                    <h1>Laws of Tanzania <?php echo '2002'; ?>-<?php echo date("Y"); ?></h1>
+                    <?php
+                    foreach ($laws as $rows) {
+                        ?>
+
+                        <p><a href="../acts.php?year=<?php echo $rows['year']; ?>">Laws of
+                                Tanzania <?php echo $rows['year']; ?></a></p>
+                        <?php
                     }
 
                     ?>
-                </table>
-            </div>
-            <div id="legislation" class="tab-pane fade">
+                </div>
+                <div id="Articles" class="tab-pane fade">
+                    <p>Glossary</p>
+                </div>
 
-                <?php
-
-                $laws = $objLaw->getAllLaws();
-
-                ?>
-                <h1>Laws of Tanzania <?php echo '2002'; ?>-<?php echo date("Y"); ?></h1>
-                <?php
-                foreach ($laws as $rows) {
-                    ?>
-
-                    <p><a href="../acts.php?year=<?php echo $rows['year']; ?>">Laws of
-                            Tanzania <?php echo $rows['year']; ?></a></p>
-                    <?php
-                }
-
-                ?>
-            </div>
-            <div id="Articles" class="tab-pane fade">
-                <p>Glossary</p>
-            </div>
-
-            <?php}?>
+            <?php } ?>
         </div>
     </div>
 <?php
