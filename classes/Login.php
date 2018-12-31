@@ -5,8 +5,8 @@ class Login {
 	public static $_dashboard_front = "/";
 	public static $_login_front = "cid";
 	
-	public static $_login_page_admin = "/admin/";
-	public static $_dashboard_admin = "/admin/?page=exams";
+	public static $_login_page_admin = "/admin/?page=login";
+	public static $_dashboard_admin = "/admin/";
 	public static $_login_admin = "aid";
 	
 	public static $_valid_login = "valid";

@@ -3,7 +3,7 @@
 
 class Admin extends Application{
 
-    private $_table = 'admin';
+    private $_table = 'admins';
     public $_id;
 
     public function isUser($email = null, $password = null)
