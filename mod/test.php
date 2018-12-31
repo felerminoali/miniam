@@ -13,6 +13,7 @@ foreach ($cases as $row){
     $sub_array[] = $row["name"];
     $sub_array[] = '<a href="../'. $row["url"].'">Link</a>';
     $sub_array[]= $row["summary"];
+    $sub_array[] = '<button type="button" name="delete" class="btn btn-danger btn-xs delete" id="'.$row["id"].'">Delete</button>';
     $data[] = $sub_array;
 }
 

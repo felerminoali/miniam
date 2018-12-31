@@ -1,33 +1,12 @@
 
 $('document').ready(function()
 {
-    // $.ajax({
-    //     type : 'POST',
-    //     url  : '/mod/test.php',
-    //     dataType: 'json',
-    //     cache: false,
-    //     success :  function(result)
-    //     {
-    //         //pass data to datatable
-    //         console.log(result); // just to see I'm getting the correct data.
-    //         $('#test_table').DataTable({
-    //             "searching": false, //this is disabled because I have a custom search.
-    //             "aaData": [result], //here we get the array data from the ajax call.
-    //             "aoColumns": [
-    //                 { "sTitle": "ID" },
-    //                 { "sTitle": "Name" },
-    //                 { "sTitle": "URL" },
-    //                 { "sTitle": "Summary" }
-    //             ] //this isn't necessary unless you want modify the header
-    //               //names without changing it in your html code.
-    //               //I find it useful tho' to setup the headers this way.
-    //         });
-    //     }
-    // });
 
-    fill_datatable();
+    fetch_data();
+    delete_button();
 
-    function fill_datatable()
+
+    function fetch_data()
     {
         var dataTable = $('#test_table').DataTable({
             "processing" : true,
@@ -35,12 +14,34 @@ $('document').ready(function()
             "order" : [],
             "searching" : false,
             "ajax" : {
-                url:"/mod/test.php",
+                url:"/mod/fetch.php",
                 type:"POST",
                 // data:{
                 //     filter_gender:filter_gender, filter_country:filter_country
                 // }
             }
         });
+    }
+
+    function delete_button()
+    {
+
+        var id = $(this).attr("id");
+        if(confirm("Are you sure you want to remove this?"))
+        {
+            $.ajax({
+                url:"/mod/delete.php",
+                method:"POST",
+                data:{id:id},
+                success:function(data){
+                    $('#alert_message').html('<div class="alert alert-success">'+data+'</div>');
+                    $('#test_table').DataTable().destroy();
+                    fetch_data();
+                }
+            });
+            setInterval(function(){
+                $('#alert_message').html('');
+            }, 5000);
+        }
     }
 });

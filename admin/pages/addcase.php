@@ -37,7 +37,7 @@ if ($objForm->isPost('name')) {
 //                fclose($fp);
 
                 $objCase->updateCase(array('url' => "cases".DS.$objUpload->_names[0]), $objCase->_id);
-                Helper::redirect('/');
+                Helper::redirect('/admin/');
             } else {
                 Helper::redirect('/admin/?page=error');
             }
@@ -50,7 +50,13 @@ if ($objForm->isPost('name')) {
 require_once('template/_header.php')
 ?>
 
+<main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+    <h1>Add Case</h1>
+
 <div class="container">
+
+
+
 
     <div class="row">
 
@@ -105,6 +111,7 @@ require_once('template/_header.php')
         </div>
     </div>
 </div>
+</main>
 <?php
 require_once('template/_header.php')
 ?>
