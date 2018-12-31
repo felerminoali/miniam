@@ -28,7 +28,7 @@ class Upload
 
 
         $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-        fwrite($fp, is_dir(SITE_URL.DS."media".DS."upload") ? "true":"false");
+        fwrite($fp, is_dir(".."));
         fclose($fp);
 
 //        $_SERVER['DOCUMENT_ROOT']
