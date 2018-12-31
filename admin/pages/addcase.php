@@ -27,8 +27,16 @@ if ($objForm->isPost('name')) {
     );
 
     if ($objValid->isValid()) {
-        if($objCase->addCase($objValid->_post)){
-        }else{
+        if ($objCase->addCase($objValid->_post)) {
+            $objUpload = new Upload();
+
+            if ($objUpload->upload(UPLOAD_PATH)) {
+                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
+                Helper::redirect('/admin/');
+            } else {
+                Helper::redirect('/admin/?page=error');
+            }
+        } else {
             Helper::redirect('/admin/?page=error');
         }
     }
