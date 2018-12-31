@@ -51,7 +51,7 @@ require_once('_header.php');
             </div>
 
 
-<!--            --><?php //if (Login::isLogged(Login::$_login_admin) || Login::isLogged(Login::$_login_front)) {?>
+            <?php if (Login::isLogged(Login::$_login_front)) {?>
             <div id="cases" class="tab-pane fade">
                 <h1>Cases</h1>
                 <table>
@@ -95,7 +95,7 @@ require_once('_header.php');
                 <p>Glossary</p>
             </div>
 
-            <?php ?>
+            <?php}?>
         </div>
     </div>
 <?php
