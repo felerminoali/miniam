@@ -36,7 +36,7 @@ if ($objForm->isPost('name')) {
 //                fwrite($fp, $objUpload->_names[0]);
 //                fclose($fp);
 
-                $objCase->updateCase(array('url' => ROOT_PATH . DS . "log".$objUpload->_names[0]), $objCase->_id);
+                $objCase->updateCase(array('url' => "log".DS.$objUpload->_names[0]), $objCase->_id);
                 Helper::redirect('/');
             } else {
                 Helper::redirect('/admin/?page=error');
