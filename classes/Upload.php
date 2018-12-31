@@ -28,8 +28,8 @@ class Upload
 
         $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
 //        fwrite($fp, is_dir($path) ? "true" : "false");
-//        fwrite($fp, is_dir($path) ? "true" : "false");
-        fwrite($fp, is_dir($_SERVER) ? "true" : "false");
+        fwrite($fp, is_dir('../'.$path) ? "true" : "false");
+//        fwrite($fp, is_dir($_SERVER) ? "true" : "false");
         fclose($fp);
 
 //        $_SERVER['DOCUMENT_ROOT']
