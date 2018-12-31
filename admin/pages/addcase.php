@@ -31,10 +31,10 @@ if ($objForm->isPost('name')) {
             $objUpload = new Upload();
 
             if ($objUpload->upload(UPLOAD_PATH)) {
-                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
-                Helper::redirect('/');
-            } else {
-                Helper::redirect('/admin/?page=error');
+//                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
+//                Helper::redirect('/');
+//            } else {
+//                Helper::redirect('/admin/?page=error');
             }
         } else {
             Helper::redirect('/admin/?page=error');
