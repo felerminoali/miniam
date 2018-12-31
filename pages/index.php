@@ -29,7 +29,7 @@ require_once('_header.php');
 
                             <a href="/?page=login" class="btn btn-primary">Login</a>
                             <a href="/?page=register" class="btn btn-success">Register</a>
-                            <a href="/admin/" class="btn btn-success">Admin</a>
+                            <a href="/admin/" class="btn btn-warning">Admin</a>
 
                             </br>
                             </br>
@@ -52,6 +52,9 @@ require_once('_header.php');
 
 
             <?php
+
+//            echo Login::isLogged(Login::$_login_front);
+
             if (Login::isLogged(Login::$_login_front)) {
 
                 ?>
