@@ -12,6 +12,27 @@ if (Login::isLogged(Login::$_login_admin)) {
 $objForm = new Form();
 $objValid = new Validation($objForm);
 
+$objCase = new Cases();
+
+if ($objForm->isPost('name')) {
+
+    $objValid->_expected = array(
+        'name',
+        'summary'
+    );
+
+    $objValid->_required = array(
+        'name',
+        'summary'
+    );
+
+    if ($objValid->isValid()) {
+        if($objCase->addCase($objValid->_post)){
+
+        }
+    }
+}
+
 require_once('template/_header.php')
 ?>
 
@@ -36,10 +57,20 @@ require_once('template/_header.php')
                 </div>
 
                 <div class="form-group row">
+                    <label for="summary"
+                           class="col-xs-5 col-form-label">Summary</label>
+                    <div class="col-xs-7">
+                        <?php echo $objValid->validate('summary'); ?>
+                        <input type="text" class="form-control" name="summary" id="summary"
+                               value="<?php echo $objForm->stickyText('summary'); ?>">
+                    </div>
+                </div>
+
+                <div class="form-group row">
                     <label for="pdf"
                            class="col-xs-5 col-form-label">PDF</label>
                     <div class="col-xs-7">
-                        <?php echo $objValid->validate('image'); ?>
+                        <?php echo $objValid->validate('pdf'); ?>
                         <input type="file" name="pdf" id="pdf" size="30">
                     </div>
                 </div>
@@ -49,7 +80,7 @@ require_once('template/_header.php')
                     <label for="submit" class="col-xs-5 col-form-label"></label>
                     <div class="col-xs-7">
                         <button type="submit" name="submit"
-                                class="btn btn-success btn-block">Register
+                                class="btn btn-success btn-block">Submit
                         </button>
                     </div>
                 </div>

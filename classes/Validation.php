@@ -23,6 +23,7 @@ class Validation
         "confirm_password" => "Please confirm your password",
         "password_mismatch" => "Password did not matched",
 
+        'summary' => "Please provide the summary",
         'category' => "Please select the category",
         'name' => "Please provide the name",
         'description' => "Please provide a description",

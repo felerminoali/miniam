@@ -24,4 +24,25 @@ class Cases extends Application{
         }
         return $this->db->fetchAll($sql);
     }
+
+    public function addCase($params = null)
+    {
+        if (!empty($params)) {
+            $this->db->prepareInsert($params);
+            $out = $this->db->insert($this->_table);
+            $this->_id = $this->db->_id;
+            return $out;
+        }
+        return false;
+    }
+
+    public function updateCase($params = null, $id = null)
+    {
+        if (!empty($params) && !empty($id)) {
+
+            $this->db->prepareUpdate($params);
+            return $this->db->update($this->_table, $id);
+        }
+    }
+
 }
