@@ -21,8 +21,7 @@ $('document').ready(function()
         });
     }
 
-    function delete_button()
-    {
+    $(document).on('click', '.delete', function(){
 
         var id = $(this).attr("id");
         if(confirm("Are you sure you want to remove this?"))
@@ -41,5 +40,5 @@ $('document').ready(function()
                 $('#alert_message').html('');
             }, 5000);
         }
-    }
+    });
 });
