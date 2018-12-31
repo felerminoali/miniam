@@ -28,11 +28,12 @@ class Upload
 
         $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
 //        fwrite($fp, is_dir($path) ? "true" : "false");
-        fwrite($fp, !empty($this->_files) ? "true" : "false");
+//        fwrite($fp, is_dir($path) ? "true" : "false");
+        fwrite($fp, is_dir($_SERVER) ? "true" : "false");
         fclose($fp);
 
 //        $_SERVER['DOCUMENT_ROOT']
-        if(!empty($path) && !empty($this->_files)){
+        if(!empty($path) && is_dir($path) && !empty($this->_files)){
             foreach ($this->_files as $key => $value) {
 
                 $name = Helper::cleanString($value['name']);
