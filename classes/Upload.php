@@ -26,14 +26,16 @@ class Upload
 
     public function upload($path = null){
 
-        $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-        fwrite($fp, ROOT_PATH);
-        fclose($fp);
+
 
         if(!empty($path) && is_dir($path) && !empty($this->_files)){
             foreach ($this->_files as $key => $value) {
 
                 $name = Helper::cleanString($value['name']);
+
+                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+                fwrite($fp, $name);
+                fclose($fp);
 
                 if($this->_overwrite == false && is_file($path.DS.$name)){
                     $prefix = date('YmdHis', time());
