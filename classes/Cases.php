@@ -45,4 +45,12 @@ class Cases extends Application{
         }
     }
 
+    public function removeCase($id = null)
+    {
+        if(!empty($id)){
+            $sql = "DELETE FROM `{$this->_table}`
+                      WHERE `id` = '".$this->db->escape($id)."'";
+            return $this->db->query($sql);
+        }
+    }
 }
