@@ -31,11 +31,9 @@ class Upload
         if(!empty($path) && is_dir($path) && !empty($this->_files)){
             foreach ($this->_files as $key => $value) {
 
-                $name = Helper::cleanString($value['pdf']);
+                $name = Helper::cleanString($value['name']);
 
-                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-                fwrite($fp, $name);
-                fclose($fp);
+
 
                 if($this->_overwrite == false && is_file($path.DS.$name)){
                     $prefix = date('YmdHis', time());
@@ -50,6 +48,10 @@ class Upload
             }
 
             return empty($this->_errors) ? true : false;
+        }else{
+            $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+            fwrite($fp, "nao entrei");
+            fclose($fp);
         }
     }
 }
