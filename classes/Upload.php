@@ -26,10 +26,10 @@ class Upload
 
     public function upload($path = null){
 
-//        $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+        $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
 //        fwrite($fp, is_dir($path) ? "true" : "false");
-//        fwrite($fp, is_dir($path) ? "true" : "false");
-//        fclose($fp);
+        fwrite($fp, !empty($path) ? "true" : "false");
+        fclose($fp);
 
 //        $_SERVER['DOCUMENT_ROOT']
         if(!empty($path) && !empty($this->_files)){
