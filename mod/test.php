@@ -16,12 +16,6 @@ foreach ($cases as $row){
     $data[] = $sub_array;
 }
 
-//echo json_encode($cases);
-
-$fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-fwrite($fp, 'Size: '.count($data));
-fclose($fp);
-
 $output = array (
 //    "draw"       =>  intval($_POST["draw"]),
 //    "recordsTotal"   => count($data),
