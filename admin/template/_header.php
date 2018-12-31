@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault" style="float: right;">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Logout</a>
+                <a class="nav-link" href="/admin/?page=logout">Logout</a>
             </li>
         </ul>
     </div>
