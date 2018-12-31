@@ -36,7 +36,7 @@ if ($objForm->isPost('name')) {
 //                fwrite($fp, $objUpload->_names[0]);
 //                fclose($fp);
 
-                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
+                $objCase->updateCase(array('url' => ROOT_PATH . DS . "log".$objUpload->_names[0]), $objCase->_id);
                 Helper::redirect('/');
             } else {
                 Helper::redirect('/admin/?page=error');
@@ -85,7 +85,7 @@ require_once('template/_header.php')
                            class="col-xs-5 col-form-label">PDF</label>
                     <div class="col-xs-7">
                         <?php echo $objValid->validate('pdf'); ?>
-                        <input type="file" name="pdf" id="pdf" size="30">
+                        <input type="file" name="url" id="url" size="30">
                     </div>
                 </div>
 
