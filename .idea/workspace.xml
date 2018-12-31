@@ -110,6 +110,7 @@
       <find>mysqli_num_rows</find>
       <find>login</find>
       <find>_</find>
+      <find>CATALOGUE_PATH</find>
     </findStrings>
   </component>
   <component name="Git.Settings">

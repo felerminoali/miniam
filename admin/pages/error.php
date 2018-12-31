@@ -22,7 +22,7 @@ require_once('_header.php'); ?>
 
                 <div class="col-xs-12">
                     <p>An Error has occurred, please contact the administrator</p>
-                    <p><a href="/" class="btn btn-info btn-block">Back</a></p>
+                    <p><a href="/admin/" class="btn btn-info btn-block">Back</a></p>
                 </div>
             </div>
         </div>

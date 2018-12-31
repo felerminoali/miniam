@@ -31,6 +31,8 @@ if ($objForm->isPost('name')) {
             $objUpload = new Upload();
 
             if ($objUpload->upload(UPLOAD_PATH)) {
+                echo '<h1>Entreiiii</h1>';
+
                 $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
                 Helper::redirect('/admin/');
             } else {
