@@ -3,8 +3,6 @@ $('document').ready(function()
 {
 
     fetch_data();
-    delete_button();
-
 
     function fetch_data()
     {
