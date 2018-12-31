@@ -17,6 +17,7 @@ defined("DS")
 defined("ROOT_PATH")
 	|| define("ROOT_PATH", realpath(dirname(__FILE__) . DS."..".DS));
 
+
 	
 // classes folder
 defined("CLASSES_DIR")
