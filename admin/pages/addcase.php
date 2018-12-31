@@ -30,7 +30,7 @@ if ($objForm->isPost('name')) {
         if ($objCase->addCase($objValid->_post)) {
             $objUpload = new Upload();
 
-            if ($objUpload->upload(UPLOAD_PATH)) {
+            if ($objUpload->upload(ROOT_PATH . DS . "log")) {
 
 //                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
 //                fwrite($fp, $objUpload->_names[0]);
