@@ -29,13 +29,13 @@ if ($objForm->isPost('name')) {
     if ($objValid->isValid()) {
         if ($objCase->addCase($objValid->_post)) {
             $objUpload = new Upload();
-//
-//            if ($objUpload->upload(UPLOAD_PATH)) {
+
+            if ($objUpload->upload(UPLOAD_PATH)) {
 //                $objCase->updateCase(array('pdf' => $objUpload->_names[0]), $objCase->_id);
 //                Helper::redirect('/');
 //            } else {
 //                Helper::redirect('/admin/?page=error');
-//            }
+            }
         } else {
             Helper::redirect('/admin/?page=error');
         }
