@@ -172,7 +172,7 @@ require_once('_header.php'); ?>
 
                                     <div class="form-group row">
                                         <label for="county"
-                                               class="col-xs-5 col-form-label">County</label>
+                                               class="col-xs-5 col-form-label">City</label>
                                         <div class="col-xs-7">
                                             <?php echo $objValid->validate('county'); ?>
                                             <input type="text" class="form-control" name="county" id="county" value="<?php echo $objForm->stickyText('county'); ?>">

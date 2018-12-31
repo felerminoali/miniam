@@ -28,9 +28,9 @@ require_once('_header.php');
                         <div class="col-md-4">
 
                             <a href="/?page=login" class="btn btn-primary">Login</a>
-
-
                             <a href="/?page=register" class="btn btn-success">Register</a>
+                            <a href="/admin/" class="btn btn-success">Admin</a>
+
                             </br>
                             </br>
                             <h1>Our Mission</h1>
@@ -51,6 +51,7 @@ require_once('_header.php');
             </div>
 
 
+            <?php if (Login::isLogged(Login::$_login_admin) || Login::isLogged(Login::$_login_front)) {?>
             <div id="cases" class="tab-pane fade">
                 <h1>Cases</h1>
                 <table>
@@ -93,6 +94,8 @@ require_once('_header.php');
             <div id="Articles" class="tab-pane fade">
                 <p>Glossary</p>
             </div>
+
+            <?php}?>
         </div>
     </div>
 <?php
