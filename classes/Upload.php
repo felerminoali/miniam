@@ -26,8 +26,9 @@ class Upload
 
     public function upload($path = null){
 
+
         $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-        fwrite($fp, $path);
+        fwrite($fp, $_SERVER['SERVER_NAME']);
         fclose($fp);
 
 //        $_SERVER['DOCUMENT_ROOT']
