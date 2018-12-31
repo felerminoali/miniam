@@ -31,7 +31,7 @@ class Upload
         if(!empty($path) && is_dir($path) && !empty($this->_files)){
             foreach ($this->_files as $key => $value) {
 
-                $name = Helper::cleanString($value['name']);
+                $name = Helper::cleanString($value['pdf']);
 
                 $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
                 fwrite($fp, $name);
