@@ -9,7 +9,6 @@
 if (Login::isLogged(Login::$_login_admin)) {
     Helper::redirect(Login::$_dashboard_admin);
 }
-
 $objForm = new Form();
 $objValid = new Validation($objForm);
 

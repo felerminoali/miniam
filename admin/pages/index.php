@@ -1,5 +1,6 @@
 <?php
 
+Login::restrictAdmin();
 
 require_once('template/_header.php')
 ?>
