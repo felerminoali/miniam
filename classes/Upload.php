@@ -26,6 +26,9 @@ class Upload
 
     public function upload($path = null){
 
+        $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+        fwrite($fp, !empty($this->_files) ? "nao vazio" : "vazio");
+        fclose($fp);
 
 
         if(!empty($path) && is_dir($path) && !empty($this->_files)){
@@ -48,10 +51,8 @@ class Upload
             }
 
             return empty($this->_errors) ? true : false;
-        }else{
-            $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-            fwrite($fp, "nao entrei");
-            fclose($fp);
         }
+
+
     }
 }
