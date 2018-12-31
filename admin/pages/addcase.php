@@ -30,13 +30,13 @@ if ($objForm->isPost('name')) {
         if ($objCase->addCase($objValid->_post)) {
             $objUpload = new Upload();
 
-            if ($objUpload->upload(ROOT_PATH . DS . "log")) {
+            if ($objUpload->upload(CATALOGUE_PATH)) {
 
 //                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
 //                fwrite($fp, $objUpload->_names[0]);
 //                fclose($fp);
 
-                $objCase->updateCase(array('url' => "log".DS.$objUpload->_names[0]), $objCase->_id);
+                $objCase->updateCase(array('url' => CATALOGUE_PATH.DS.$objUpload->_names[0]), $objCase->_id);
                 Helper::redirect('/');
             } else {
                 Helper::redirect('/admin/?page=error');
