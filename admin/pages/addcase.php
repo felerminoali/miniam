@@ -28,7 +28,8 @@ if ($objForm->isPost('name')) {
 
     if ($objValid->isValid()) {
         if($objCase->addCase($objValid->_post)){
-
+        }else{
+            Helper::redirect('/admin/?page=error');
         }
     }
 }
