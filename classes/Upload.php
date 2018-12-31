@@ -34,9 +34,9 @@ class Upload
                 $name = Helper::cleanString($value['name']);
 
 
-                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-                fwrite($fp, "entrei");
-                fclose($fp);
+//                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
+//                fwrite($fp, "entrei ".$name);
+//                fclose($fp);
 
                 if($this->_overwrite == false && is_file($path.DS.$name)){
                     $prefix = date('YmdHis', time());
