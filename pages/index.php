@@ -51,7 +51,10 @@ require_once('_header.php');
             </div>
 
 
-            <?php if (Login::isLogged(Login::$_login_admin)) { ?>
+            <?php
+            if (Login::isLogged(Login::$_login_front)) {
+
+                ?>
                 <div id="cases" class="tab-pane fade">
                     <h1>Cases</h1>
                     <table>
