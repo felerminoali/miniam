@@ -29,12 +29,12 @@
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/">Home</a></li>
             </ul>
         </div>
-<!--        <ul class="nav navbar-nav navbar-right">-->
-<!--            <li><a class="nav-link" href="/admin/?page=logout">Logout</a></li>-->
-<!--        </ul>-->
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/admin/?page=logout">Logout</a></li>
+        </ul>
     </div>
 </nav>
 
