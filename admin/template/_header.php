@@ -31,11 +31,11 @@
                 <li><a href="/">Home</a></li>
             </ul>
         </div>
-        <div class="container-fluid" style="margin-top: 0.60em;">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/admin/?page=logout">Logout</a></li>
-            </ul>
-        </div>
+<!--        <div class="container-fluid" style="margin-top: 0.60em;">-->
+<!--            <ul class="nav navbar-nav navbar-right">-->
+<!--                <li><a href="/admin/?page=logout">Logout</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
     </div>
 </nav>
 
