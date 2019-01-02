@@ -12,9 +12,14 @@ require_once('_header.php');
     <div class="container">
         <ul class="nav nav-tabs"> <!--use nav bars instead -->
             <li class="active"><a data-toggle="tab" href="#home">Home page</a></li>
-            <li><a data-toggle="tab" href="#cases">Cases</a></li>
-            <li><a data-toggle="tab" href="#legislation">Legislation</a></li>
-            <li><a data-toggle="tab" href="#glossary">Articles</a></li>
+
+            <?php
+            if (Login::isLogged(Login::$_login_front) || Login::isLogged(Login::$_login_admin)) {
+                ?>
+                <li><a data-toggle="tab" href="#cases">Cases</a></li>
+                <li><a data-toggle="tab" href="#legislation">Legislation</a></li>
+                <li><a data-toggle="tab" href="#glossary">Articles</a></li>
+            <?php } ?>
         </ul>
 
         <div class="tab-content">
@@ -50,13 +55,8 @@ require_once('_header.php');
                 </div>
             </div>
 
-
             <?php
-
-//            echo Login::isLogged(Login::$_login_front);
-
             if (Login::isLogged(Login::$_login_front) || Login::isLogged(Login::$_login_admin)) {
-
                 ?>
                 <div id="cases" class="tab-pane fade">
                     <h1>Cases</h1>
