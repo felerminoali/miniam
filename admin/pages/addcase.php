@@ -101,7 +101,6 @@ require_once('template/_header.php')
                         <button type="submit" name="submit"
                                 class="btn btn-success btn-block">Submit
                         </button>
-                        <a href="/admin/" class="btn btn-danger">Cancel</a>
                     </div>
                 </div>
 
