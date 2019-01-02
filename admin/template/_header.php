@@ -22,7 +22,7 @@
 <body>
 
 <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-    <a class="navbar-brand" href="#">Dashboard</a>
+    <a class="navbar-brand" href="/admin/">Dashboard</a>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault" style="float: right;">
         <ul class="navbar-nav mr-auto">
@@ -40,7 +40,7 @@
 
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link" href="/admin/?page=listcase">Manage Cases</a>
+                    <a class="nav-link active" href="/admin/?page=listcase">Manage Cases</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Manage Laws</a>
