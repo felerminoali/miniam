@@ -39,8 +39,13 @@
 
 
             <ul class="nav nav-pills nav-fill flex-column">
+
                 <li class="nav-item">
-                    <a class="nav-link active" href="/admin/?page=listcase">Manage Cases</a>
+                    <a class="nav-link active" href="/admin/">Dashboard</a>
+                </li
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/?page=listcase">Manage Cases</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Manage Laws</a>
