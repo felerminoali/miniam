@@ -10,7 +10,7 @@ require_once('template/_header.php')
     <h1>Manage Laws</h1>
 
     <a href="/admin/?page=addlaw" class="btn btn-success" style="float: right;"><i class="fa fa-angle-double-left"
-                                                                                    aria-hidden="true"></i>Add Case</a>
+                                                                                    aria-hidden="true"></i>Add law</a>
     <div id="alert_message"></div>
     <table id="law_table" class="display" style="width: 100%">
         <thead>

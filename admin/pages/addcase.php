@@ -52,12 +52,12 @@ require_once('template/_header.php')
 <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
     <h1>Add Case</h1>
 
+    <a href="/admin/" class="btn btn-warning">Cancel</a>
+
 <div class="container">
 
-
-
-
     <div class="row">
+
 
 
         <div class="col-md-8">
