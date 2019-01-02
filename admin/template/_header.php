@@ -24,18 +24,11 @@
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-    <a class="navbar-brand" href="/admin/">Dashboard</a>
+             <a class="navbar-brand" href="/admin/">Dashboard</a>
         </div>
-<!--        <div id="navbar" class="navbar-collapse collapse">-->
-<!--            <ul class="nav navbar-nav">-->
-<!--            <li class="nav-item active">-->
-<!--                <a class="nav-link" href="/admin/?page=logout">Logout</a>-->
-<!--            </li>-->
-<!--        </ul>-->
         <ul class="nav navbar-nav navbar-right">
             <li><a class="nav-link" href="/admin/?page=logout">Logout</a></li>
         </ul>
-    </div>
     </div>
 </nav>
 
