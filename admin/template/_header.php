@@ -43,7 +43,7 @@
                 <ul class="nav nav-sidebar">
                     <li class="active"><a href="/admin/">Dashboard <span class="sr-only">(current)</span></a></li>
                     <li><a href="/admin/?page=listcase">Manage Cases</a></li>
-                    <li><a  href="#">Manage Laws</a></li>
+                    <li><a  href="/admin/?page=listlaw">Manage Laws</a></li>
                 </ul>
 
 

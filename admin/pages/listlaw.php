@@ -12,7 +12,7 @@ require_once('template/_header.php')
     <a href="/admin/?page=addlaw" class="btn btn-success" style="float: right;"><i class="fa fa-angle-double-left"
                                                                                     aria-hidden="true"></i>Add Case</a>
     <div id="alert_message"></div>
-    <table id="test_table" class="display" style="width: 100%">
+    <table id="law_table" class="display" style="width: 100%">
         <thead>
         <tr>
             <th>ID</th>

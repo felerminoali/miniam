@@ -5,9 +5,8 @@
  * Date: 12/29/2018
  * Time: 6:27 PM
  */
-if (Login::isLogged(Login::$_login_admin)) {
-    Helper::redirect(Login::$_dashboard_admin);
-}
+
+Login::restrictAdmin();
 
 $objForm = new Form();
 $objValid = new Validation($objForm);

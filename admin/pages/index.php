@@ -12,7 +12,7 @@ require_once('template/_header.php')
             <!-- Main component for a primary marketing message or call to action -->
             <div class="jumbotron">
                 <h1>Dashboard</h1>
-                <p>Well come. This is the administrative area.</p>
+                <p>Wellcome. This is the administrative area.</p>
             </div>
 
         </main>

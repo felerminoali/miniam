@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75065c54-9ac4-4c86-88b4-3f8d15d75573" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/addcase.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/addcase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/template/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/template/_header.php" afterDir="false" />
     </list>
@@ -39,7 +41,7 @@
           <entry key="json" value="3" />
           <entry key="log" value="1" />
           <entry key="md" value="3" />
-          <entry key="php" value="184" />
+          <entry key="php" value="187" />
           <entry key="sql" value="27" />
         </counts>
       </usages-collector>
@@ -51,7 +53,7 @@
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="11" />
           <entry key="Markdown" value="3" />
-          <entry key="PHP" value="184" />
+          <entry key="PHP" value="187" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="27" />
         </counts>
@@ -60,14 +62,14 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="js" value="53" />
-          <entry key="php" value="2968" />
+          <entry key="php" value="2984" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="53" />
-          <entry key="PHP" value="2968" />
+          <entry key="PHP" value="2984" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -80,28 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+        <entry file="file://$PROJECT_DIR$/admin/pages/listcase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103675">
-              <caret line="4147" column="3" selection-start-line="4147" selection-start-column="3" selection-end-line="4147" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+        <entry file="file://$PROJECT_DIR$/admin/pages/addcase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46075">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pages/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            <state relative-caret-position="-2326">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -109,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/template/_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="985">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="358">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -124,9 +117,9 @@
       <find>_</find>
       <find>CATALOGUE_PATH</find>
       <find>county</find>
-      <find>active</find>
       <find>nav-item</find>
       <find>nav-link</find>
+      <find>active</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +149,6 @@
         <option value="$PROJECT_DIR$/admin/pages/error.php" />
         <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/classes/Upload.php" />
-        <option value="$PROJECT_DIR$/admin/pages/addcase.php" />
         <option value="$PROJECT_DIR$/mod/test.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/classes/Cases.php" />
@@ -171,6 +163,7 @@
         <option value="$PROJECT_DIR$/admin/pages/listlaw.php" />
         <option value="$PROJECT_DIR$/admin/pages/addlaw.php" />
         <option value="$PROJECT_DIR$/admin/pages/index.php" />
+        <option value="$PROJECT_DIR$/admin/pages/addcase.php" />
         <option value="$PROJECT_DIR$/admin/template/_header.php" />
       </list>
     </option>
@@ -320,12 +313,12 @@
       <workItem from="1545892137606" duration="2652000" />
       <workItem from="1546064034385" duration="12684000" />
       <workItem from="1546182219696" duration="25267000" />
-      <workItem from="1546414014942" duration="4839000" />
+      <workItem from="1546414014942" duration="5434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87786000" />
+    <option name="totallyTimeSpent" value="88381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
@@ -333,7 +326,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.25644916" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25644916" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -496,6 +489,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="61" column="32" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="e#29#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,24 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/listcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="20" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/pages/listlaw.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/addcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" lean-forward="true" selection-end-line="117" />
         </state>
       </provider>
     </entry>
@@ -683,31 +665,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/admin/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103675">
-          <caret line="4147" column="3" selection-start-line="4147" selection-start-column="3" selection-end-line="4147" selection-end-column="3" />
+        <state relative-caret-position="349">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46075">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="190">
+          <caret line="4" column="45575" selection-start-line="4" selection-start-column="45575" selection-end-line="4" selection-end-column="45575" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pages/index.php">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="174">
+          <caret line="4943" column="23" selection-start-line="4943" selection-start-column="17" selection-end-line="4943" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/listcase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/addcase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2326">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/template/_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="358">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
