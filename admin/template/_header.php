@@ -38,20 +38,13 @@
 
 <div class="container">
     <div class="row">
-        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="/admin/">Dashboard <span class="sr-only">(current)</span></a></li>
+                    <li><a href="/admin/?page=listcase">Manage Cases</a></li>
+                    <li><a  href="#">Manage Laws</a></li>
+                </ul>
 
 
-            <ul class="nav nav-pills nav-fill flex-column">
-
-                <li class="nav-">
-                    <a class="navbar-link active" href="/admin/">Dashboard</a>
-                </li
-
-                <li class="nav-item">
-                    <a class="nav-link" href="/admin/?page=listcase">Manage Cases</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Manage Laws</a>
-                </li>
-            </ul>
-        </nav>
+            </div>
