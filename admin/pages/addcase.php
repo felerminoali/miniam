@@ -36,7 +36,7 @@ if ($objForm->isPost('name')) {
 //                fclose($fp);
 
                 $objCase->updateCase(array('url' => "cases".DS.$objUpload->_names[0]), $objCase->_id);
-                Helper::redirect('/admin/');
+                Helper::redirect('/admin/?page=listcase');
             } else {
                 Helper::redirect('/admin/?page=error');
             }

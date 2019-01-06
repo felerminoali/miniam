@@ -5,39 +5,32 @@
  * Date: 12/29/2018
  * Time: 6:27 PM
  */
-if (Login::isLogged(Login::$_login_admin)) {
-    Helper::redirect(Login::$_dashboard_admin);
-}
 
 $objForm = new Form();
 $objValid = new Validation($objForm);
 
-$objCase = new Cases();
+$objCase = new Laws();
 
 if ($objForm->isPost('name')) {
 
     $objValid->_expected = array(
         'name',
-        'summary'
+        'year'
     );
 
     $objValid->_required = array(
         'name',
-        'summary'
+        'year'
     );
 
     if ($objValid->isValid()) {
-        if ($objCase->addCase($objValid->_post)) {
+        if ($objCase->addLaw($objValid->_post)) {
             $objUpload = new Upload();
 
             if ($objUpload->upload(ROOT_PATH . DS . "cases")) {
 
-//                $fp = fopen(ROOT_PATH . DS . "log" . DS . "error.log", 'a');
-//                fwrite($fp, $objUpload->_names[0]);
-//                fclose($fp);
-
                 $objCase->updateCase(array('url' => "cases".DS.$objUpload->_names[0]), $objCase->_id);
-                Helper::redirect('/admin/');
+                Helper::redirect('/admin/?page=listlaw');
             } else {
                 Helper::redirect('/admin/?page=error');
             }
@@ -68,7 +61,7 @@ require_once('template/_header.php')
 
                     <div class="form-group row">
                         <label for="name"
-                               class="col-xs-5 col-form-label">Case Name</label>
+                               class="col-xs-5 col-form-label">Law </label>
                         <div class="col-xs-7">
                             <?php echo $objValid->validate('name'); ?>
                             <input type="text" class="form-control" name="name" id="name"
@@ -78,11 +71,11 @@ require_once('template/_header.php')
 
                     <div class="form-group row">
                         <label for="summary"
-                               class="col-xs-5 col-form-label">Summary</label>
+                               class="col-xs-5 col-form-label">Year</label>
                         <div class="col-xs-7">
-                            <?php echo $objValid->validate('summary'); ?>
-                            <input type="text" class="form-control" name="summary" id="summary"
-                                   value="<?php echo $objForm->stickyText('summary'); ?>">
+                            <?php echo $objValid->validate('year'); ?>
+                            <input type="text" class="form-control" name="year" id="year"
+                                   value="<?php echo $objForm->stickyText('year'); ?>">
                         </div>
                     </div>
 
