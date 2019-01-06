@@ -4,7 +4,7 @@ require_once ('../inc/autoload.php');
 
 $objLaws = new Laws();
 
-$laws= $objLaws->getAllLaws();
+$laws= $objLaws->getLaws();
 
 $data = array();
 foreach ($laws as $row){

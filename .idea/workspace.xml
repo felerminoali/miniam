@@ -144,6 +144,7 @@
       <find>nav-item</find>
       <find>nav-link</find>
       <find>active</find>
+      <find>$objLaw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">

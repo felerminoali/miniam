@@ -21,6 +21,13 @@ class Laws extends Application{
         return $this->db->fetchAll($sql);
     }
 
+    public function getLaws()
+    {
+        $sql = "SELECT * FROM `{$this->_table}`";
+        $sql .= " ORDER BY `id` DESC";
+        return $this->db->fetchAll($sql);
+    }
+
     public function addLaw($params = null)
     {
         if (!empty($params)) {
