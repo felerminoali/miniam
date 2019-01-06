@@ -32,6 +32,7 @@ class Validation
         'email_duplicate' => "This email is already taken",
         'address' => "Please provide the business address",
         'telephone' => "Please provide the telephone no.",
+        'year' => "Please provide the year",
         'vat_rate' => "Please provide the VAT rate"
     );
     // list of excepted fields;
