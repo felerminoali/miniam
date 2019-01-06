@@ -13,7 +13,7 @@ foreach ($laws as $row){
     $sub_array[] = $row["name"];
     $sub_array[] = '<a href="../'. $row["url"].'">Link</a>';
     $sub_array[]= $row["year"];
-    $sub_array[] = '<button type="button" name="delete" class="btn btn-danger btn-xs delete" id="'.$row["id"].'">Delete</button>';
+    $sub_array[] = '<button type="button" name="delete" class="btn btn-danger btn-xs delete-law" id="'.$row["id"].'">Delete</button>';
     $data[] = $sub_array;
 }
 
