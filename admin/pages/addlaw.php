@@ -6,10 +6,12 @@
  * Time: 6:27 PM
  */
 
+Login::restrictAdmin();
+
 $objForm = new Form();
 $objValid = new Validation($objForm);
 
-$objCase = new Laws();
+$objLaw = new Laws();
 
 if ($objForm->isPost('name')) {
 
@@ -24,12 +26,12 @@ if ($objForm->isPost('name')) {
     );
 
     if ($objValid->isValid()) {
-        if ($objCase->addLaw($objValid->_post)) {
+        if ($objLaw->addLaw($objValid->_post)) {
             $objUpload = new Upload();
 
             if ($objUpload->upload(ROOT_PATH . DS . "cases")) {
 
-                $objCase->updateCase(array('url' => "cases".DS.$objUpload->_names[0]), $objCase->_id);
+                $objLaw->updateLaw(array('url' => "cases".DS.$objUpload->_names[0]), $objLaw->_id);
                 Helper::redirect('/admin/?page=listlaw');
             } else {
                 Helper::redirect('/admin/?page=error');
