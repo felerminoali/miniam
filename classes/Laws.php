@@ -17,6 +17,7 @@ class Laws extends Application{
     {
         $sql = "SELECT * FROM `{$this->_table}`";
         $sql .= " GROUP BY `year` DESC";
+        $sql .= " ORDER BY `id` DESC";
         return $this->db->fetchAll($sql);
     }
 
