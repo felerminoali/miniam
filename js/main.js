@@ -3,7 +3,7 @@ $('document').ready(function()
 {
 
     fetch_case_data();
-    fetch_law_data();
+    // fetch_law_data();
 
     function fetch_case_data()
     {
@@ -21,20 +21,21 @@ $('document').ready(function()
             }
         });
     }
+    //
+    // function fetch_law_data()
+    // {
+    //     var dataTable = $('#law_table').DataTable({
+    //         "processing" : true,
+    //         "serverSide" : true,
+    //         "order" : [],
+    //         "searching" : false,
+    //         "ajax" : {
+    //             url:"/mod/fetch_laws.php",
+    //             type:"POST",
+    //         }
+    //     });
+    // }
 
-    function fetch_law_data()
-    {
-        var dataTable = $('#law_table').DataTable({
-            "processing" : true,
-            "serverSide" : true,
-            "order" : [],
-            "searching" : false,
-            "ajax" : {
-                url:"/mod/fetch_laws.php",
-                type:"POST",
-            }
-        });
-    }
     $(document).on('click', '.delete', function(){
 
         var id = $(this).attr("id");
